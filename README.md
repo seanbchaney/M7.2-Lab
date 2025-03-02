@@ -1,8 +1,8 @@
-# web-dev-starter
+# M7.2 Lab
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+This project demonstrates fundamental CSS layout techniques including 
+Flexbox, Grid, Floating, and Positioning without using any frameworks. 
+It showcases a responsive webpage layout following specific design requirements.
 
 ## Getting Started
 

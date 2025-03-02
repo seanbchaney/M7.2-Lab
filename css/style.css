@@ -1,4 +1,84 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Logo */
+.logo {
+  background: #fff;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+  background: black;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Main Layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+article {
+  flex: 2;
+  min-width: 300px;
+}
+
+aside {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Image with text wrapping */
+.feature {
+  float: left;
+  margin: 0 15px 10px 0;
+  width: 150px;
+  height: auto;
+}
+
+/* Photo Grid */
+.photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  padding: 0;
+  list-style: none;
+}
+
+.photos img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
